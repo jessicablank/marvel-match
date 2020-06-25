@@ -9,7 +9,9 @@
 
 body {
 	background-image: url("love-bg.jpg");
-	background-size: 250px 250px;
+    background-size: 250px 250px;
+    font-family: 'Marvel', sans-serif;
+    
 }
 
 .main-info {
@@ -19,3 +21,7 @@ body {
     text-align: center;
 }
 
+.start-button {
+    background-color: white;
+    border: none;
+}
