@@ -44,6 +44,7 @@ img.four-heroes {
     border-color: #900101;
     border-style: groove;
     border-width: 4px;
+<<<<<<< HEAD
    
 }
 
@@ -55,4 +56,6 @@ img.four-heroes {
 #a2
 #a3 {
     font-family: 'Marvel', sans-serif;
+=======
+>>>>>>> 8e86ea2d82eb52384b378e21f2daa26bd5c73989
 }

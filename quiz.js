@@ -30,6 +30,7 @@ function startQuiz() {
   }
   )
 }
+<<<<<<< HEAD
 
 //When the user clicks on the results button, they are redirected to the results html page
 function endQuiz() {
@@ -37,6 +38,11 @@ function endQuiz() {
     window.location.replace("results.html");
   }
   )
+=======
+//When the start screen is hidden, a Function displays the first question
+function getQuestion() {
+
+>>>>>>> 8e86ea2d82eb52384b378e21f2daa26bd5c73989
 }
 
 })
