@@ -35,3 +35,12 @@ img.four-heroes {
     
     object-fit: fill;
 }
+.question {
+    background-color: white;
+    margin-top: 100px;
+    max-width: 600px;
+    text-align: center;
+    border-color: #900101;
+    border-style: groove;
+    border-width: 4px;
+}

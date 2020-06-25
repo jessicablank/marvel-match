@@ -1,8 +1,10 @@
 //Quiz!
-alert("quiz connected!");
 //When the User Selects an answer, a function assigns a point value to each answer
 //The points are associated with a character and results are displayed
-//Answers
+
+$(document).ready(function(){
+  $('select').formSelect();
+});
 
 startQuiz();
 
@@ -11,16 +13,15 @@ function startQuiz() {
     // This hides the start screen
     $(".start-button").on("click",function(){
       $(".main-info").addClass("hide");
+      $(".question").removeClass("hide");
+       // un-hide questions section
+       //getQuestion();
+    
+    
     }
     
-    
-    //var startScreenEl = document.getElementById("start-screen");
-   // startScreenEl.setAttribute("class", "hide");
-    
     )
-    // un-hide questions section
-    questionsEl.removeAttribute("class");
-    getQuestion();
+   
 }
 
 //When the start screen is hidden, a Function displays the first question
