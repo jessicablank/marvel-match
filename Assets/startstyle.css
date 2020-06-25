@@ -46,3 +46,13 @@ img.four-heroes {
     border-width: 4px;
    
 }
+
+.hide {
+    display: none;
+}
+
+#a1
+#a2
+#a3 {
+    font-family: 'Marvel', sans-serif;
+}
