@@ -16,6 +16,18 @@ $.ajax({
     var name = response.data.results[0].name;
     var bio = response.data.results[0].description;
 
-    $("#name").text(name);
+    $("#name").text("Your match is: " + name + "!");
     $("#bio").text(bio);
+
+    var giphyUrl = "http://api.giphy.com/v1/gifs/search?q=" + name + "&api_key=McNnA0Ed1ZNUtu6z0Svghy2Ku0i2rpAy&limit=1"
+
+    $.ajax({
+      url: giphyUrl,
+      method: "GET",
+    }).then(function(response) {
+      console.log(response);
+      console.log(response.data[0].images.fixed_height.url);
+      var newImg = $("<img>").attr("src", response.data[0].images.fixed_height.url);
+      $("#giphy").append(newImg);
+    });
   });
