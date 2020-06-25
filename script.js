@@ -4,13 +4,13 @@ var spidermanName = "Spider-man";
 var thorName = "Thor";
 var captainAmericaName = "Captain America";
 
-var winnerName = "";
+var winnerName = localStorage.getItem("marvel-match-name");
 
-winnerName = captainAmericaName;
+if (winnerName !== null) {
 
-$.ajax({
+  $.ajax({
     url:
-      "https://gateway.marvel.com/v1/public/characters?name="+ winnerName + "&limit=1&apikey=7d5f2e35ee9376fda0cff9e664d68a3a",
+      "https://gateway.marvel.com/v1/public/characters?name=" + winnerName + "&limit=1&apikey=7d5f2e35ee9376fda0cff9e664d68a3a",
     method: "GET",
   }).then(function (response) {
     var name = response.data.results[0].name;
@@ -24,10 +24,11 @@ $.ajax({
     $.ajax({
       url: giphyUrl,
       method: "GET",
-    }).then(function(response) {
+    }).then(function (response) {
       console.log(response);
       console.log(response.data[0].images.fixed_height.url);
       var newImg = $("<img>").attr("src", response.data[0].images.fixed_height.url);
       $("#giphy").append(newImg);
     });
   });
+}
