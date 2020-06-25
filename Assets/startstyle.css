@@ -14,14 +14,24 @@ body {
     
 }
 
+
+/* make ur border below*/
 .main-info {
     background-color: white;
     margin-top: 100px;
     max-width: 600px;
     text-align: center;
+    border-color: #900101;
+    border-style: groove;
+    border-width: 4px;
 }
 
 .start-button {
     background-color: white;
     border: none;
+}
+
+img.four-heroes {
+    
+    object-fit: fill;
 }
