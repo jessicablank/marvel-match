@@ -1,5 +1,13 @@
 .my-top {
-    background-color: red;
+    background-color:#900101;
     text-align: center;
-    opacity: .7;
+    color: white;
+    font-size: 6em;
+    border-style: groove;
+    border-width: 4px;
+}
+
+body {
+	background-image: url("love-bg.jpg");
+	background-size: 300px 250px;
 }
