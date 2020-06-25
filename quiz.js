@@ -1,65 +1,38 @@
 //Quiz!
-//When the User Presses Play, a Function displays the questions
+alert("quiz connected!");
 //When the User Selects an answer, a function assigns a point value to each answer
 //The points are associated with a character and results are displayed
+//Answers
 
+startQuiz();
+
+//When the User Presses Play, a Function displays the questions
 function startQuiz() {
-    // hide start screen
-    var startScreenEl = document.getElementById("start-screen");
-    startScreenEl.setAttribute("class", "hide");
-  
+    // This hides the start screen
+    $(".start-button").on("click",function(){
+      $(".main-info").addClass("hide");
+    }
+    
+    
+    //var startScreenEl = document.getElementById("start-screen");
+   // startScreenEl.setAttribute("class", "hide");
+    
+    )
     // un-hide questions section
     questionsEl.removeAttribute("class");
     getQuestion();
 }
 
+//When the start screen is hidden, a Function displays the first question
 function getQuestion() {
-    // get current question object from array
-    var currentQuestion = questions[currentQuestionIndex];
-  
-    // update title with current question
-    var titleEl = document.getElementById("question-title");
-    titleEl.textContent = currentQuestion.title;
-  
-    // clear out any old question choices
-    choicesEl.innerHTML = "";
-  
-    // loop over choices
-    currentQuestion.choices.forEach(function (choice, i) {
-      // create new button for each choice
-      var choiceNode = document.createElement("button");
-      choiceNode.setAttribute("class", "choice");
-      choiceNode.setAttribute("value", choice);
-  
-      choiceNode.textContent = i + 1 + ". " + choice;
-  
-      // attach click event listener to each choice
-      choiceNode.onclick = questionClick;
-  
-      // display on the page
-      choicesEl.appendChild(choiceNode);
-    });
-  }
-  
-  
-
-
-
-
-var questions = [
-    {
-      title: "How much do you value monetary wealth?:",
-      choices: ["A lot", "Some", "Not at all"],
-      answers: 
-    },
-    {
-        title: "Where would you ideally like to live?:",
-        choices: ["City", "Jungle", "Outer Space"],
-        answers: 
-      },
-      {
-        title: "How much do you value status in society?:",
-        choices: ["A lot", "Some", "Not at all"],
-        answers: 
+      var question1 = {
+        title: "How much do you value monetary wealth?:",
+        answer1: "A lot",
+        answer2: "Some",
+        answer3: "Not at all",
+        value1: 2,
+        value2: 1,
+        value3: 0,
       }
-    ];
+    }
+    
