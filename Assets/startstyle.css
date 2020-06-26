@@ -47,20 +47,6 @@ img.four-heroes {
     border-width: 4px;
 }
 
-
-[type="radio"].with-gap:checked + span:before{
-
-    border: 2px solid #900101;
-}
-
-[type="radio"].with-gap:checked + span:after {
-
- 
-  border: 2px solid #900101;
-  
-  background-color: #900101;
- 
-}
 #increase{
     font-size: 2rem;
     font-family: 'Marvel', sans-serif;
@@ -69,5 +55,46 @@ img.four-heroes {
 
 #font-increase{
     font-family: 'Marvel', sans-serif;
+    font-size: 1.5rem;
     font-weight: bold;
 }
+
+/*stylizing radio buttons*/
+[type="radio"]:checked + span:after,
+
+ 
+
+[type="radio"].with-gap:checked + span:before,
+
+ 
+
+
+[type="radio"].with-gap:checked + span:after {
+
+ 
+
+
+  border: 2px solid #900101;
+
+ 
+
+}
+
+[type="radio"]:checked + span:after,
+
+ 
+
+
+[type="radio"].with-gap:checked + span:after {
+
+ 
+
+
+  background-color: #900101;
+
+ 
+
+}
+
+ 
+
