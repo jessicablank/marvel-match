@@ -30,16 +30,32 @@ body {
 .start-button {
     background-color: white;
     border: none;
-    display: inline-block;
+    transition-duration: 0.4s;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
+.start-button:hover {
+    background-color: #900101;
+    cursor: pointer
+}
 .show-results {
     background-color: white;
     border: none;
     display: inline-block;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
+
+.show-results:hover {
+    background-color: #900101;
+    cursor: pointer
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
 
 img.four-heroes {
     
