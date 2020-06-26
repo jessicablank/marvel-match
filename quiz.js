@@ -27,7 +27,6 @@ function startQuiz() {
   }
   )
 }
-
 //When the start screen is hidden, a Function displays the first question
 function getQuestion() {
 
