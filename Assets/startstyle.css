@@ -30,7 +30,7 @@ body {
 .start-button {
     background-color: white;
     border: none;
-    text-align: center;
+    display: inline-block;
 }
 
 img.four-heroes {
@@ -46,6 +46,7 @@ img.four-heroes {
     border-style: groove;
     border-width: 4px;
 }
+
 
 #increase{
     font-size: 2rem;
