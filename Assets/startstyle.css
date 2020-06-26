@@ -30,6 +30,7 @@ body {
 .start-button {
     background-color: white;
     border: none;
+    text-align: center;
 }
 
 img.four-heroes {
