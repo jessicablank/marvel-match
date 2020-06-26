@@ -46,3 +46,22 @@ img.four-heroes {
     border-style: groove;
     border-width: 4px;
 }
+
+
+[type="radio"].with-gap:checked + span:before{
+
+    border: 2px solid #900101;
+}
+
+[type="radio"].with-gap:checked + span:after {
+
+ 
+  border: 2px solid #900101;
+  
+  background-color: #900101;
+ 
+}
+
+.with-gap{
+    font-size: 50px;
+}
