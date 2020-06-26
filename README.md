@@ -3,7 +3,7 @@
 [Link to Deployed Webpage](https://jessicablank.github.io/marvel-match/)
 *Note: Live Server Extension is required to run this application.*
 
-[Link to Presentation](https://docs.google.com/presentation/d/1nlvRwHQYUcZi0VCagh1_l3WAad3Riqo9CGQ1PIukkhY/edit?usp=sharing)
+[Link toPresentation](https://docs.google.com/presentation/d/1nlvRwHQYUcZi0VCagh1_l3WAad3Riqo9CGQ1PIukkhY/edit?usp=sharing)
 
 [Link to Project Board](https://github.com/jessicablank/marvel-match/projects)
 
