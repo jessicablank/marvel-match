@@ -61,7 +61,8 @@ img.four-heroes {
   background-color: #900101;
  
 }
-
-.with-gap{
-    font-size: 50px;
+#increase{
+    font-size: 2rem;
+    font-family: 'Marvel', sans-serif;
+    color: rgb(14, 6, 6)
 }
