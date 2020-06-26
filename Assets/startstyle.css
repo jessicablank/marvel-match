@@ -36,7 +36,9 @@ body {
 
 .start-button:hover {
     background-color: #900101;
-    cursor: pointer
+    cursor: pointer;
+    transform: scale(1.5);
+    transition: all 0.2s ease-in-out;
 }
 .show-results {
     background-color: white;
@@ -47,15 +49,11 @@ body {
 
 .show-results:hover {
     background-color: #900101;
-    cursor: pointer
+    cursor: pointer;
+    transform: scale(1.5);
+    transition: all 0.2s ease-in-out;
 }
 
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-  }
 
 img.four-heroes {
     
