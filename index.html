@@ -1,6 +1,7 @@
 <!-- @format -->
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -10,6 +11,7 @@
 	<link rel="stylesheet" href="Assets/startstyle.css" />
 	<link href="https://fonts.googleapis.com/css2?family=Marvel:wght@700&display=swap" rel="stylesheet" />
 </head>
+
 <body>
 	<div class="container my-top">
 		<div class="row">
@@ -36,7 +38,7 @@
 				<h5>
 					Hey Marvel fan! <br> Ever wondered which character would be your perfect
 					date/companion? <br>
-					Let us satiate your curiousity! <br>Answer a few questions to determine
+					Let us satiate your curiosity! <br>Answer a few questions to determine
 					your match. <br>
 					Click on the Marvel folder below to begin, have fun!
 				</h5>
@@ -54,72 +56,72 @@
 
 	<div class="container question1 hide">
 		<div class="input-field col s12">
-			<h3>Where would you ideally like to live?</h3>
+			<h3 id="font-update">Where would you ideally like to live?</h3>
 			<form action="#">
 				<p>
 					<label>
-						<input type="radio" id="a1" />
-						<span>City</span>
+						<input class="with-gap" name = "radioBtn" type="radio" id="a1" />
+						<span id="increase">City</span>
 					</label>
 				</p>
 				<p>
 					<label>
-						<input type="radio" id="a2" />
-						<span>Jungle</span>
+						<input class="with-gap" name = "radioBtn" type="radio" id="a2" />
+						<span id="increase">Jungle</span>
 					</label>
 				</p>
 				<p>
 					<label>
-						<input type="radio" id="a3" />
-						<span>Outer Space</span>
+						<input class="with-gap" name = "radioBtn" type="radio" id="a3" />
+						<span id="increase">Outer Space</span>
 					</label>
 				</p>
-			<h3>How much does social status mean to you?</h3>
-			<form action="#">
-				<p>
-					<label>
-						<input type="radio" id="b1" />
-						<span>A lot</span>
-					</label>
-				</p>
-				<p>
-					<label>
-						<input type="radio" id="b2" />
-						<span>Some</span>
-					</label>
-				</p>
-				<p>
-					<label>
-						<input type="radio" id="b3" />
-						<span>Not at all</span>
-					</label>
-				</p>
-			<h3>How Much Do You Value Monetary Wealth?</h3>
-			<form action="#">
-				<p>
-					<label>
-						<input type="radio" id="c1" />
-						<span>A Lot</span>
-					</label>
-				</p>
-				<p>
-					<label>
-						<input type="radio" id="c2" />
-						<span>Some</span>
-					</label>
-				</p>
-				<p>
-					<label>
-						<input type="radio" id="c3" />
-						<span>Not at all</span>
-					</label>
-				</p>
-			</form>
+				<h3 id="font-update">How much does social status mean to you?</h3>
+				<form action="#">
+					<p>
+						<label>
+							<input class="with-gap" name = "radioBtn" type="radio" id="b1" />
+							<span id="increase">A lot</span>
+						</label>
+					</p>
+					<p>
+						<label>
+							<input class="with-gap" name = "radioBtn" type="radio" id="b2" />
+							<span id="increase">Some</span>
+						</label>
+					</p>
+					<p>
+						<label>
+							<input class="with-gap" name = "radioBtn" type="radio" id="b3" />
+							<span id="increase">Not at all</span>
+						</label>
+					</p>
+					<h3 id="font-update">How Much Do You Value Monetary Wealth?</h3>
+					<form action="#">
+						<p>
+							<label>
+								<input class="with-gap" name = "radioBtn" type="radio" id="c1" />
+								<span id="increase">A Lot</span>
+							</label>
+						</p>
+						<p>
+							<label>
+								<input class="with-gap" name = "radioBtn" type="radio" id="c2" />
+								<span id="increase">Some</span>
+							</label>
+						</p>
+						<p>
+							<label>
+								<input class="with-gap" name = "radioBtn" type="radio" id="c3" />
+								<span id="increase">Not at all</span>
+							</label>
+						</p>
+					</form>
 
-			<p>Click the Marvel folder to see your results!</p>
-			<button class="show-results">
-				<img src="Assets/Marvel-icon.png" width="100px" height="100 px" alt="marvel folder" />
-			</button>
+					<p id="font-increase">Click the Marvel folder to see your results!</p>
+					<button class="show-results">
+						<img src="Assets/Marvel-icon.png" width="100px" height="100 px" alt="marvel folder" />
+					</button>
 		</div>
 	</div>
 
@@ -132,4 +134,5 @@
 	<script src="quiz.js" type="text/javascript"></script>
 
 </body>
+
 </html>
