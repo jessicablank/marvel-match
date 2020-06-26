@@ -6,6 +6,10 @@ var captainAmericaName = "Captain America";
 
 var winnerName = localStorage.getItem("marvel-match-name");
 
+$(".play-again-button").on("click", function() {
+  window.location.replace("index.html");
+});
+
 if (winnerName !== null) {
 
   $.ajax({
