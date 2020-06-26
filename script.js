@@ -19,7 +19,7 @@ if (winnerName !== null) {
     $("#name").text("Your match is: " + name + "!");
     $("#bio").text(bio);
 
-    var giphyUrl = "http://api.giphy.com/v1/gifs/search?q=" + name + "&api_key=McNnA0Ed1ZNUtu6z0Svghy2Ku0i2rpAy&limit=1"
+    var giphyUrl = "https://api.giphy.com/v1/gifs/search?q=" + name + "&api_key=McNnA0Ed1ZNUtu6z0Svghy2Ku0i2rpAy&limit=1"
 
     $.ajax({
       url: giphyUrl,
