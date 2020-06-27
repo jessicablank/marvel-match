@@ -1,11 +1,16 @@
 # Marvel Match Game
 
 [Link to Deployed Webpage](https://jessicablank.github.io/marvel-match/)
-*Note: Live Server Extension is required to run this application.*
+*Note: Live Server Extension is required to run this code from VS Code.*
 
-[Link toPresentation](https://docs.google.com/presentation/d/1nlvRwHQYUcZi0VCagh1_l3WAad3Riqo9CGQ1PIukkhY/edit?usp=sharing)
+[Link to Presentation](https://docs.google.com/presentation/d/1nlvRwHQYUcZi0VCagh1_l3WAad3Riqo9CGQ1PIukkhY/edit?usp=sharing)
 
 [Link to Project Board](https://github.com/jessicablank/marvel-match/projects)
+
+### Developer GitHub Pages
+* [Shelby](https://github.com/Q118)
+* [Timothy](https://github.com/tober65)
+* [Jessica](https://github.com/jessicablank)
 
 ### User Stories:
 * AS A person who uses the internet.
@@ -22,16 +27,11 @@
 
 ### Acceptance Criteria:
 * GIVEN the user is presented with instructions to use the application. 
-    * WHEN the user presses a "start" button. the user is presented with questions. 
+    * WHEN the user presses a "start" button, the user is presented with questions. 
     * THEN the app displays a question for the user to select an answer. 
 * GIVEN the user selects an answer.
     * WHEN the user presses a "submit" button.
     * THEN the application displays a Marvel character.
-
-### Developer GitHub Pages
-* [Shelby](https://github.com/Q118)
-* [Timothy](https://github.com/tober65)
-* [Jessica](https://github.com/jessicablank)
 
 ### Integrated Applications
 * [Marvel Developer Portal](https://developer.marvel.com/)
