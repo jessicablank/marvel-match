@@ -30,6 +30,10 @@
   * I WANT to be presented with details about my matched Marvel character.
   * SO THAT I can feel connected to a pop-culture icon. 
 
+* AS A user of this application who is matched to a Marvel character.
+  * I WANT to be presented with a button to share this application on social media.
+  * SO THAT I can share this experience with others. 
+
 ### Acceptance Criteria:
 * GIVEN the user is presented with instructions to use the application. 
     * WHEN the user presses a "start" button, the user is presented with questions. 
@@ -37,6 +41,9 @@
 * GIVEN the user selects an answer.
     * WHEN the user presses a "submit" button.
     * THEN the application displays a Marvel character.
+* GIVEN the user is matched with a Marvel character.
+    * WHEN the user presses the "facebook" button.
+    * THEN the application connects to Facebook.
 
 ### Integrated Applications
 * [Marvel Developer Portal](https://developer.marvel.com/)
