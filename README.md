@@ -12,6 +12,11 @@
 * [Timothy](https://github.com/tober65)
 * [Jessica](https://github.com/jessicablank)
 
+### Screen Shots of Application
+![Landing Page](/Assets/homepage-ss.png)
+![Questions Page](/Assets/questions-ss.png)
+![Results Page](/Assets/results-ss.png)
+
 ### User Stories:
 * AS A person who uses the internet.
     * I WANT to know if I am interested in using this application. 
@@ -37,5 +42,6 @@
 * [Marvel Developer Portal](https://developer.marvel.com/)
 * [Materialize CSS](https://materializecss.com/)
 * [Giphy Developers](https://developers.giphy.com/)
+* [Facebook Share 3rd Party API](https://developers.facebook.com/docs/plugins/share-button/)
 
 
