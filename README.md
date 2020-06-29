@@ -13,9 +13,9 @@
 * [Jessica](https://github.com/jessicablank)
 
 ### Screen Shots of Application
-![Landing Page](/Assets/homepage-ss.png)
-![Questions Page](/Assets/questions-ss.png)
-![Results Page](/Assets/results-ss.png)
+![Landing Page](https://github.com/jessicablank/marvel-match/blob/master/Assets/homepage-ss.PNG)
+![Questions Page](https://github.com/jessicablank/marvel-match/blob/master/Assets/questions-ss.PNG)
+![Results Page](https://github.com/jessicablank/marvel-match/blob/master/Assets/results-ss.PNG)
 
 ### User Stories:
 * AS A person who uses the internet.
