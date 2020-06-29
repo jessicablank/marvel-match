@@ -12,6 +12,11 @@
 * [Timothy](https://github.com/tober65)
 * [Jessica](https://github.com/jessicablank)
 
+### Screen Shots of Application
+![Landing Page](/Assets/homepage-ss.png)
+![Questions Page](/Assets/questions-ss.png)
+![Results Page](/Assets/results-ss.png)
+
 ### User Stories:
 * AS A person who uses the internet.
     * I WANT to know if I am interested in using this application. 
@@ -25,6 +30,10 @@
   * I WANT to be presented with details about my matched Marvel character.
   * SO THAT I can feel connected to a pop-culture icon. 
 
+* AS A user of this application who is matched to a Marvel character.
+  * I WANT to be presented with a button to share this application on social media.
+  * SO THAT I can share this experience with others. 
+
 ### Acceptance Criteria:
 * GIVEN the user is presented with instructions to use the application. 
     * WHEN the user presses a "start" button, the user is presented with questions. 
@@ -32,10 +41,14 @@
 * GIVEN the user selects an answer.
     * WHEN the user presses a "submit" button.
     * THEN the application displays a Marvel character.
+* GIVEN the user is matched with a Marvel character.
+    * WHEN the user presses the "facebook" button.
+    * THEN the application connects to Facebook.
 
 ### Integrated Applications
 * [Marvel Developer Portal](https://developer.marvel.com/)
 * [Materialize CSS](https://materializecss.com/)
 * [Giphy Developers](https://developers.giphy.com/)
+* [Facebook Share 3rd Party API](https://developers.facebook.com/docs/plugins/share-button/)
 
 
